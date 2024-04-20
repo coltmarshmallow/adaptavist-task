@@ -1,0 +1,9 @@
+Instructions:
+
+1) Compile Java
+
+javac WordCount.java
+
+2) Run Java Program against your chosen text file
+
+java WordCount .\exampleText.txt
