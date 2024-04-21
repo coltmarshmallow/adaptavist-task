@@ -2,8 +2,8 @@ Instructions:
 
 1) Compile Java
 
-javac WordCount.java
+mvn package -f ./Wordcount/pom.xml
 
 2) Run Java Program against your chosen text file
 
-java WordCount ./Texts/givenText.txt
+java -cp ./Wordcount/target/wordcount-1.0-SNAPSHOT.jar app.wordcount.WordCount ./Texts/givenText.txt
