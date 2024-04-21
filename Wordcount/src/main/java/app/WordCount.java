@@ -25,7 +25,7 @@ public class WordCount {
         }
     }
 
-    private static Map<String, Integer> countWords(String filePath) throws IOException {
+    static Map<String, Integer> countWords(String filePath) throws IOException {
         Map<String, Integer> wordCountMap = new HashMap<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
