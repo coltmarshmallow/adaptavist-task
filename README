@@ -8,4 +8,4 @@ mvn package -f ./Wordcount/pom.xml
 
 java -cp ./Wordcount/target/wordcount-1.0-SNAPSHOT.jar app.wordcount.WordCount ./Texts/givenText.txt
 
-docs/DOCKER.md
+[Docker Docs](./docs/DOCKER.md)
